@@ -1,0 +1,105 @@
+﻿using System;
+
+namespace A
+{
+	// Token: 0x02000333 RID: 819
+	internal sealed class cb7f4a18817a41212039e1dc20b6eec0f : c156d13823d81cd4a7425f2cf5b6230f3
+	{
+		// Token: 0x06000FFD RID: 4093 RVA: 0x00093D78 File Offset: 0x00091F78
+		public cb7f4a18817a41212039e1dc20b6eec0f(byte[] array, cdddb0b97541c52448b8f0b50995b8c8e cdddb0b97541c52448b8f0b50995b8c8e, bool flag = false) : base(array, cdddb0b97541c52448b8f0b50995b8c8e, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(35012), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(35016) != 0, flag)
+		{
+			this.c827dc0b6332f8c48e787fceab56215b2 = default(cb7f4a18817a41212039e1dc20b6eec0f.c9f127e1e418d9611f54397a9f1cbaedf);
+			this.c827dc0b6332f8c48e787fceab56215b2.c1f33b4de07ecab5e57658871886d926f = c37c689447867dc9ce98d904b70a83290.ce8915750eb2dc86a075214c6cf229baa(c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(35020));
+			this.c827dc0b6332f8c48e787fceab56215b2.cbd387012b01fc4ca6498c0e4fa59cc13 = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.c827dc0b6332f8c48e787fceab56215b2.c7c75833f5adadc3c7dc1d41cd11f4cac = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.c827dc0b6332f8c48e787fceab56215b2.c6f7cbca4269f26970817bc70b2352e4c = this.c1931c382e0fefaae84b9654d92e1461e.c10977621cab38e37d3151c0a33203f8f();
+			this.c827dc0b6332f8c48e787fceab56215b2.ce1d11cb8775c7c559882895c3507d40f = this.c1931c382e0fefaae84b9654d92e1461e.c10977621cab38e37d3151c0a33203f8f();
+			this.c827dc0b6332f8c48e787fceab56215b2.cf501443341252b199badd9001d7a46b8 = this.c1931c382e0fefaae84b9654d92e1461e.c1ddc67f3c5cc6b444d4fb6517a1bf7cb();
+			this.c827dc0b6332f8c48e787fceab56215b2.c4133f594a82980efa774a1f80ec2e7d6 = this.c1931c382e0fefaae84b9654d92e1461e.c4a64b08025e9d2963db3bdcf9dda8179();
+			this.c827dc0b6332f8c48e787fceab56215b2.c4196d4f1f84ad4f2e6aec391f233acdd = this.c1931c382e0fefaae84b9654d92e1461e.cd4680c2f8d52ae1cff439c41b4bb3571();
+			this.c827dc0b6332f8c48e787fceab56215b2.c1d7f860777352f4398cb82f9b3d2b526 = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.c827dc0b6332f8c48e787fceab56215b2.c4179eef9407df95a05121d34c8c70589 = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			for (int i = c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(35024); i < c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(35032); i += c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(35028))
+			{
+				this.c827dc0b6332f8c48e787fceab56215b2.c1f33b4de07ecab5e57658871886d926f[i] = this.c1931c382e0fefaae84b9654d92e1461e.cd4680c2f8d52ae1cff439c41b4bb3571();
+			}
+			while (true)
+			{
+				switch (3)
+				{
+				case 0:
+					continue;
+				}
+				break;
+			}
+			if (!true)
+			{
+				RuntimeMethodHandle arg_170_0 = methodof(cb7f4a18817a41212039e1dc20b6eec0f..ctor(byte[], cdddb0b97541c52448b8f0b50995b8c8e, bool)).MethodHandle;
+			}
+			this.c827dc0b6332f8c48e787fceab56215b2.ceb142e2201cdeee25aa71717389a48a7 = this.c1931c382e0fefaae84b9654d92e1461e.cd4680c2f8d52ae1cff439c41b4bb3571();
+			this.c827dc0b6332f8c48e787fceab56215b2.c3071642cc772d7d0223fbcc438c3ff3e = this.c1931c382e0fefaae84b9654d92e1461e.c1d7de65a34fa28530030c4294d7b036e();
+			this.c827dc0b6332f8c48e787fceab56215b2.c039bd5f7ee0b10e3324f3380089087ec = this.c1931c382e0fefaae84b9654d92e1461e.c1d7de65a34fa28530030c4294d7b036e();
+			this.c827dc0b6332f8c48e787fceab56215b2.c3d23e1cbcae9438226f42183a707c914 = (double)this.c1931c382e0fefaae84b9654d92e1461e.cd12ac6b3c252047c541c4b93d257956f();
+			this.c827dc0b6332f8c48e787fceab56215b2.c9258d2d959e33715a12d3de69d4bfe95 = this.c1931c382e0fefaae84b9654d92e1461e.c4a64b08025e9d2963db3bdcf9dda8179();
+			this.c827dc0b6332f8c48e787fceab56215b2.c6b8441d63d009051b2c105e677732351 = this.c1931c382e0fefaae84b9654d92e1461e.c1ddc67f3c5cc6b444d4fb6517a1bf7cb();
+			this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.c1931c382e0fefaae84b9654d92e1461e.cd12ac6b3c252047c541c4b93d257956f();
+			this.c1931c382e0fefaae84b9654d92e1461e.cd4680c2f8d52ae1cff439c41b4bb3571();
+		}
+
+		// Token: 0x04000B05 RID: 2821
+		public cb7f4a18817a41212039e1dc20b6eec0f.c9f127e1e418d9611f54397a9f1cbaedf c827dc0b6332f8c48e787fceab56215b2;
+
+		// Token: 0x02000334 RID: 820
+		public struct c9f127e1e418d9611f54397a9f1cbaedf
+		{
+			// Token: 0x04000B06 RID: 2822
+			public uint cbd387012b01fc4ca6498c0e4fa59cc13;
+
+			// Token: 0x04000B07 RID: 2823
+			public uint c7c75833f5adadc3c7dc1d41cd11f4cac;
+
+			// Token: 0x04000B08 RID: 2824
+			public bool c6f7cbca4269f26970817bc70b2352e4c;
+
+			// Token: 0x04000B09 RID: 2825
+			public bool ce1d11cb8775c7c559882895c3507d40f;
+
+			// Token: 0x04000B0A RID: 2826
+			public ulong cf501443341252b199badd9001d7a46b8;
+
+			// Token: 0x04000B0B RID: 2827
+			public string c4133f594a82980efa774a1f80ec2e7d6;
+
+			// Token: 0x04000B0C RID: 2828
+			public byte c4196d4f1f84ad4f2e6aec391f233acdd;
+
+			// Token: 0x04000B0D RID: 2829
+			public uint c1d7f860777352f4398cb82f9b3d2b526;
+
+			// Token: 0x04000B0E RID: 2830
+			public uint c4179eef9407df95a05121d34c8c70589;
+
+			// Token: 0x04000B0F RID: 2831
+			public byte ceb142e2201cdeee25aa71717389a48a7;
+
+			// Token: 0x04000B10 RID: 2832
+			public long c3071642cc772d7d0223fbcc438c3ff3e;
+
+			// Token: 0x04000B11 RID: 2833
+			public long c039bd5f7ee0b10e3324f3380089087ec;
+
+			// Token: 0x04000B12 RID: 2834
+			public double c3d23e1cbcae9438226f42183a707c914;
+
+			// Token: 0x04000B13 RID: 2835
+			public string c9258d2d959e33715a12d3de69d4bfe95;
+
+			// Token: 0x04000B14 RID: 2836
+			public ulong c6b8441d63d009051b2c105e677732351;
+
+			// Token: 0x04000B15 RID: 2837
+			public byte[] c1f33b4de07ecab5e57658871886d926f;
+		}
+	}
+}

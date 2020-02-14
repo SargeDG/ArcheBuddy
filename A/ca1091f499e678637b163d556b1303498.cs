@@ -1,0 +1,30 @@
+﻿using System;
+
+namespace A
+{
+	// Token: 0x020000F8 RID: 248
+	internal sealed class ca1091f499e678637b163d556b1303498
+	{
+		// Token: 0x06000846 RID: 2118 RVA: 0x0004779C File Offset: 0x0004599C
+		public ca1091f499e678637b163d556b1303498(string text, out string ptr, out string ptr2, out string ptr3)
+		{
+			this.cc40a04104a3e5c6cf8aba3ba52038793 = cd8802bbc01543043aed262d6ebf033f9.c0cf59c3e67a46fd4edb3040c5ab0bbfb(c2c4969db2415439955360bb0140220e0.c0cf59c3e67a46fd4edb3040c5ab0bbfb().ToString());
+			c4525cb0a47143c877434017f88b0f30e c4525cb0a47143c877434017f88b0f30e = this.cb89dda92662d78e993df13d666455730<c4525cb0a47143c877434017f88b0f30e>();
+			c4525cb0a47143c877434017f88b0f30e.c98bbad30ecc9f3a841c1a00b66ef0bd9(text, out ptr, out ptr2, out ptr3);
+			c59286713b7eba48824fb54d4649878c3.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this.cc40a04104a3e5c6cf8aba3ba52038793);
+		}
+
+		// Token: 0x06000847 RID: 2119 RVA: 0x000477F8 File Offset: 0x000459F8
+		private A cb89dda92662d78e993df13d666455730<A>()
+		{
+			Type type = c761ca7d0932aec9bada39f5181205ad1.c0cf59c3e67a46fd4edb3040c5ab0bbfb(typeof(A).TypeHandle);
+			return (A)((object)c5258cee058349c94d4947e3f07f6f1b1.c30767ddca1f9c207888833aea5b5fc61(this.cc40a04104a3e5c6cf8aba3ba52038793, cf03d0425361ef77d0ecded028e94df12.c0cf59c3e67a46fd4edb3040c5ab0bbfb(c994f925d8769b4b088d24160a24fcb09.c30767ddca1f9c207888833aea5b5fc61(c03ab3cc315c27675c59e39a580af7e0e.c0cf59c3e67a46fd4edb3040c5ab0bbfb()), c18b57b77328324f24e8a135188b3a747.ca2627375a3c55a847928012559959362(149342)), c69e53947b3b1458e002546785e67c889.c30767ddca1f9c207888833aea5b5fc61(type)));
+		}
+
+		// Token: 0x04000461 RID: 1121
+		private AppDomain cc40a04104a3e5c6cf8aba3ba52038793;
+
+		// Token: 0x04000462 RID: 1122
+		private string c0b9a748b12e64701c39f4cb9d4cd69e7;
+	}
+}

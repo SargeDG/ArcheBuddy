@@ -1,0 +1,52 @@
+﻿using System;
+
+namespace A
+{
+	// Token: 0x0200003C RID: 60
+	[Flags]
+	internal enum cadae53df99bae3d07f9f2a46bff13d61
+	{
+		// Token: 0x040000D4 RID: 212
+		cd179b1e97c87231370ca977afc460edf = 1,
+		// Token: 0x040000D5 RID: 213
+		ca2e65ebe61c066a7143965132d8364db = 2,
+		// Token: 0x040000D6 RID: 214
+		c15ac8dc137a77600141f443f1b41a265 = 4,
+		// Token: 0x040000D7 RID: 215
+		ce289198efb920f10bd1102678b04c76a = 8,
+		// Token: 0x040000D8 RID: 216
+		c69a8123a897577d83ece6e555417681c = 16,
+		// Token: 0x040000D9 RID: 217
+		c23bdf619afa52fc59054836cbe826d69 = 32,
+		// Token: 0x040000DA RID: 218
+		cdd8c5efe632a2dddc9b54784023eb841 = 64,
+		// Token: 0x040000DB RID: 219
+		c6b1a2d79c64e3c045df877f9c96bcbfe = 128,
+		// Token: 0x040000DC RID: 220
+		cf763d17db0edbc330a7d3d9749a97771 = 256,
+		// Token: 0x040000DD RID: 221
+		c481bcd9936f99f7fd16c7179b029c3bb = 512,
+		// Token: 0x040000DE RID: 222
+		ca51d0964c41badfc9bf9e6a8d6592c07 = 1024,
+		// Token: 0x040000DF RID: 223
+		cfed87a3a76480482dcf75f6de5d7441c = 2048,
+		// Token: 0x040000E0 RID: 224
+		c915b1036ec9370f206c1605eab1cfc20 = 4096,
+		// Token: 0x040000E1 RID: 225
+		cd492661fa1d995d6a2daced29481ad18 = 8192,
+		// Token: 0x040000E2 RID: 226
+		ca1dcc27bbb3c7994c284d0bfe2f41fb3 = 16384,
+		// Token: 0x040000E3 RID: 227
+		c8484df54f69590b9c7a4c2870c048a91 = 32768,
+		// Token: 0x040000E4 RID: 228
+		c91fa5e19f7c689a6d62ed32986e7d8a8 = 65536,
+		// Token: 0x040000E5 RID: 229
+		c866f1d048530982690d497bd6c566c34 = 131072,
+		// Token: 0x040000E6 RID: 230
+		c3967982e0f59b6405dd9b844ff6580be = 262144,
+		// Token: 0x040000E7 RID: 231
+		c83ba1e5c6562efac8b1e970a68c0b307 = 524288,
+		// Token: 0x040000E8 RID: 232
+		c2a1801b875fa10333921bc646877c6a9 = 1048576
+	}
+}

@@ -1,0 +1,22 @@
+﻿using System;
+
+namespace A
+{
+	// Token: 0x020001BC RID: 444
+	internal sealed class c3028e03c268ef67d096e6efef6736f31 : c156d13823d81cd4a7425f2cf5b6230f3
+	{
+		// Token: 0x06000BBD RID: 3005 RVA: 0x0007354C File Offset: 0x0007174C
+		public c3028e03c268ef67d096e6efef6736f31(byte[] array, cdddb0b97541c52448b8f0b50995b8c8e cdddb0b97541c52448b8f0b50995b8c8e) : base(array, cdddb0b97541c52448b8f0b50995b8c8e, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(27240), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(27244) != 0)
+		{
+			cd63006d588c79907ab430e3d98358040.c8d73bf847c35157c111cc1ef7a2eab24(this, cdddb0b97541c52448b8f0b50995b8c8e, ref this.c3ed0f77b0e2a42bb6a93c2749e163d60, ref this.c58f532852454a3507df81e3852b1ab94);
+			this.c1931c382e0fefaae84b9654d92e1461e.c10977621cab38e37d3151c0a33203f8f();
+			this.c1931c382e0fefaae84b9654d92e1461e.c10977621cab38e37d3151c0a33203f8f();
+		}
+
+		// Token: 0x04000797 RID: 1943
+		public byte c3ed0f77b0e2a42bb6a93c2749e163d60;
+
+		// Token: 0x04000798 RID: 1944
+		public byte c58f532852454a3507df81e3852b1ab94;
+	}
+}

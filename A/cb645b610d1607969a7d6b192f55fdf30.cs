@@ -1,0 +1,35 @@
+﻿using System;
+
+namespace A
+{
+	// Token: 0x02000171 RID: 369
+	internal sealed class cb645b610d1607969a7d6b192f55fdf30 : c156d13823d81cd4a7425f2cf5b6230f3
+	{
+		// Token: 0x06000B72 RID: 2930 RVA: 0x00071B48 File Offset: 0x0006FD48
+		public cb645b610d1607969a7d6b192f55fdf30(byte[] array, cdddb0b97541c52448b8f0b50995b8c8e cdddb0b97541c52448b8f0b50995b8c8e) : base(array, cdddb0b97541c52448b8f0b50995b8c8e, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(26488), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(26492) != 0)
+		{
+			this.c475a98e1ac5ecf7fa87cf943a80893d7 = this.c1931c382e0fefaae84b9654d92e1461e.c1ddc67f3c5cc6b444d4fb6517a1bf7cb();
+			this.c51a511ff2f0e1d743ef3822c15684566 = this.c1931c382e0fefaae84b9654d92e1461e.c1ddc67f3c5cc6b444d4fb6517a1bf7cb();
+			cd63006d588c79907ab430e3d98358040.c8d73bf847c35157c111cc1ef7a2eab24(this, cdddb0b97541c52448b8f0b50995b8c8e, ref this.ca8ab3a15f8f9159b69e6910f87603457, ref this.ccda67ecdd278ef7a4f28a59722b58728);
+			cd63006d588c79907ab430e3d98358040.c8d73bf847c35157c111cc1ef7a2eab24(this, cdddb0b97541c52448b8f0b50995b8c8e, ref this.c136c78d80efc22a42251ff273696275d, ref this.c5d38195c1e0486b4dd46029586533de1);
+		}
+
+		// Token: 0x04000721 RID: 1825
+		public byte ca8ab3a15f8f9159b69e6910f87603457;
+
+		// Token: 0x04000722 RID: 1826
+		public byte c136c78d80efc22a42251ff273696275d;
+
+		// Token: 0x04000723 RID: 1827
+		public byte ccda67ecdd278ef7a4f28a59722b58728;
+
+		// Token: 0x04000724 RID: 1828
+		public byte c5d38195c1e0486b4dd46029586533de1;
+
+		// Token: 0x04000725 RID: 1829
+		public ulong c475a98e1ac5ecf7fa87cf943a80893d7;
+
+		// Token: 0x04000726 RID: 1830
+		public ulong c51a511ff2f0e1d743ef3822c15684566;
+	}
+}

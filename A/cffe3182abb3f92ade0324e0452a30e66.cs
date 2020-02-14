@@ -1,0 +1,38 @@
+﻿using System;
+
+namespace A
+{
+	// Token: 0x02000197 RID: 407
+	internal sealed class cffe3182abb3f92ade0324e0452a30e66 : c156d13823d81cd4a7425f2cf5b6230f3
+	{
+		// Token: 0x06000B98 RID: 2968 RVA: 0x000726B8 File Offset: 0x000708B8
+		public cffe3182abb3f92ade0324e0452a30e66(byte[] array, cdddb0b97541c52448b8f0b50995b8c8e cdddb0b97541c52448b8f0b50995b8c8e) : base(array, cdddb0b97541c52448b8f0b50995b8c8e, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(26836), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(26840) != 0)
+		{
+			this.c7f0d49b6c4f8c8cd5e4c5bdfd4706224 = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.c60a5ea73454a465e5d16d2863aa88e3d = this.c1931c382e0fefaae84b9654d92e1461e.c10977621cab38e37d3151c0a33203f8f();
+			this.cb5c601c6663e0e22d6837da9502e9314 = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.cac948f0eb313b9d6edd609a0adc65294 = this.c1931c382e0fefaae84b9654d92e1461e.cd4680c2f8d52ae1cff439c41b4bb3571();
+			this.c9e60c04d8f9c06f98c7605c375d95674 = this.c1931c382e0fefaae84b9654d92e1461e.c4a64b08025e9d2963db3bdcf9dda8179();
+			this.c1931c382e0fefaae84b9654d92e1461e.cbcc4dfb3f449d3efb6f8cdf88ff74d56(c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(26844));
+			this.cb86f62e11836e6ab93d8e3ace25b690a = this.c1931c382e0fefaae84b9654d92e1461e.c1ddc67f3c5cc6b444d4fb6517a1bf7cb();
+		}
+
+		// Token: 0x04000750 RID: 1872
+		public string c9e60c04d8f9c06f98c7605c375d95674;
+
+		// Token: 0x04000751 RID: 1873
+		public uint cb5c601c6663e0e22d6837da9502e9314;
+
+		// Token: 0x04000752 RID: 1874
+		public byte cac948f0eb313b9d6edd609a0adc65294;
+
+		// Token: 0x04000753 RID: 1875
+		public uint c7f0d49b6c4f8c8cd5e4c5bdfd4706224;
+
+		// Token: 0x04000754 RID: 1876
+		public ulong cb86f62e11836e6ab93d8e3ace25b690a;
+
+		// Token: 0x04000755 RID: 1877
+		public bool c60a5ea73454a465e5d16d2863aa88e3d;
+	}
+}

@@ -1,0 +1,265 @@
+﻿using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Windows.Forms;
+using ArcheBuddy.Bot.Classes;
+
+namespace A
+{
+	// Token: 0x0200056A RID: 1386
+	internal sealed class cc9ac2bbb25ca55cfd51718f033491e7a : Control
+	{
+		// Token: 0x06001F09 RID: 7945 RVA: 0x0013EB3C File Offset: 0x0013CD3C
+		public cc9ac2bbb25ca55cfd51718f033491e7a(string text, CoreInternal coreInternal, c6bdd46ef9f05485f6b69f34bf6920a88 c6bdd46ef9f05485f6b69f34bf6920a)
+		{
+			this.c99cc8d41a90783cea4e7845c839dcc98();
+			c1b9d9b66fd308184b9018f4db9b35264.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this, (ControlStyles)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96084), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96088) != 0);
+			this.ca124a9f406cda69b904f2eb04d553ab9 = coreInternal;
+			this.c6c72c029a273123a083e76d610205020 = c6bdd46ef9f05485f6b69f34bf6920a;
+			this.c1fe92e2401f269fe36c670041bacd9cd = text;
+			this.c6cce3d7a037d3bb6daf36850da21511f();
+			ccd41247b03e8b4bed610878a51518399.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this, new EventHandler(this.c8286ada24678d05d019b25799301fefe));
+			this.c2dee754ae18233cf038dd1eb1a74c903 = new TextureBrush(this.cfcf963d78e4d86bc8e79dd99361e64d9);
+			cc87e0258744f06b7ed54939ba5c6eb39.c30767ddca1f9c207888833aea5b5fc61(this.c2dee754ae18233cf038dd1eb1a74c903, (WrapMode)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96092));
+			this.c08a4fa2870e4c9cd9c3b42ca97bed4fc = new TextureBrush(this.c3c0337d09f5a296f71a3424a155ecd30);
+			cc87e0258744f06b7ed54939ba5c6eb39.c30767ddca1f9c207888833aea5b5fc61(this.c08a4fa2870e4c9cd9c3b42ca97bed4fc, (WrapMode)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96096));
+			this.c9bc3fe51dce170e9ce86ed1685f5fbe9 = new TextureBrush(this.c36f05f91e1d5566565206b8d2528365e);
+			cc87e0258744f06b7ed54939ba5c6eb39.c30767ddca1f9c207888833aea5b5fc61(this.c9bc3fe51dce170e9ce86ed1685f5fbe9, (WrapMode)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96100));
+			this.c3d1f0f2260e0d4fcb2ec1e65aa58001f = new TextureBrush(this.c6cc5446bc2b1b068fc58fb7db3b327e5);
+			cc87e0258744f06b7ed54939ba5c6eb39.c30767ddca1f9c207888833aea5b5fc61(this.c3d1f0f2260e0d4fcb2ec1e65aa58001f, (WrapMode)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96104));
+			this.c735174362001e418c89af8e4d9fafb00 = new TextureBrush(this.c179c218866adc84baeadfa06c857a2c6);
+			cc87e0258744f06b7ed54939ba5c6eb39.c30767ddca1f9c207888833aea5b5fc61(this.c735174362001e418c89af8e4d9fafb00, (WrapMode)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96108));
+		}
+
+		// Token: 0x06001F0A RID: 7946 RVA: 0x0013EC5C File Offset: 0x0013CE5C
+		protected override void OnPaint(PaintEventArgs e)
+		{
+			ca4101afdd490d4f1fc552889ce1f807a.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this, e);
+			cddeefb9a4e967a5de56a10bc3d73ada7.c30767ddca1f9c207888833aea5b5fc61(c1055f231da15d9d37e8844c6135439cf.c30767ddca1f9c207888833aea5b5fc61(e), this.cfe50bfa25649541afa0ea62ceaabc269, Point.Empty);
+		}
+
+		// Token: 0x06001F0B RID: 7947 RVA: 0x0013EC88 File Offset: 0x0013CE88
+		private void c8286ada24678d05d019b25799301fefe(object obj, EventArgs eventArgs)
+		{
+			c92e960b5df0a96b818ce3d9e18456c1c.c30767ddca1f9c207888833aea5b5fc61(this.ce5cd417cc54ef6c0ab7d42539bb38ce1, c22c2ccd3a1b5cf0fd393ce0898dd6661.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this) - c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96000));
+			c8d11bd632485509323291cb481183b0f.c30767ddca1f9c207888833aea5b5fc61(this.ce5cd417cc54ef6c0ab7d42539bb38ce1, ca2b5349dc1ed2819b0b204a14992cec0.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this) - c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96004));
+			this.c085dec529dabe69214ebd3da5f50de15();
+		}
+
+		// Token: 0x06001F0C RID: 7948 RVA: 0x0013ECD8 File Offset: 0x0013CED8
+		private void c085dec529dabe69214ebd3da5f50de15()
+		{
+			if (this.cfe50bfa25649541afa0ea62ceaabc269 != null)
+			{
+				while (true)
+				{
+					switch (2)
+					{
+					case 0:
+						continue;
+					}
+					break;
+				}
+				if (!true)
+				{
+					RuntimeMethodHandle arg_1A_0 = methodof(cc9ac2bbb25ca55cfd51718f033491e7a.c085dec529dabe69214ebd3da5f50de15()).MethodHandle;
+				}
+				c762855a9636b81dcb4ffe699b8e25cf6.c30767ddca1f9c207888833aea5b5fc61(this.cfe50bfa25649541afa0ea62ceaabc269);
+			}
+			this.cfe50bfa25649541afa0ea62ceaabc269 = cd95844e7d60a0b489c7b00a0c65c04de.c0cf59c3e67a46fd4edb3040c5ab0bbfb(c22c2ccd3a1b5cf0fd393ce0898dd6661.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this), ca2b5349dc1ed2819b0b204a14992cec0.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this), (PixelFormat)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96008));
+			int num = c22c2ccd3a1b5cf0fd393ce0898dd6661.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this);
+			int num2 = ca2b5349dc1ed2819b0b204a14992cec0.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this);
+			Graphics graphics = c613052e8bee42d8583d5b4036f4d2d57.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this.cfe50bfa25649541afa0ea62ceaabc269);
+			try
+			{
+				c01754b2d6a3b058e32220a8f00201bb0.c30767ddca1f9c207888833aea5b5fc61(graphics, (CompositingQuality)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96012));
+				c6ed28ebb38d8ca3aaf3d48c8cf38fb72.c30767ddca1f9c207888833aea5b5fc61(graphics, (PixelOffsetMode)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96016));
+				c3c459109318902adc631375e1d797d04.c30767ddca1f9c207888833aea5b5fc61(graphics, (SmoothingMode)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96020));
+				cf59ab6facb97c8f8e7c575d492fabed6.c30767ddca1f9c207888833aea5b5fc61(graphics, (InterpolationMode)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96024));
+				c0f13d95f6c502a3a21c31070a3bc1f9d.c30767ddca1f9c207888833aea5b5fc61(this.c2dee754ae18233cf038dd1eb1a74c903, c4929ffb646fb9ba9deb5f553efe8c57b.cdf46f43e0afdf3dce063f22f1e47bb37(96028), c4929ffb646fb9ba9deb5f553efe8c57b.cdf46f43e0afdf3dce063f22f1e47bb37(96032));
+				c67e5d86d93e1f62ae94663048b8e6e8f.c30767ddca1f9c207888833aea5b5fc61(graphics, this.c2dee754ae18233cf038dd1eb1a74c903, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96036), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96040), num, num2);
+				c6620458a630f3f7af22a821f55b87a8e.c30767ddca1f9c207888833aea5b5fc61(graphics, this.c4fd64b0e652a9d526a239f7c8660874a, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96044), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96048), ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c4fd64b0e652a9d526a239f7c8660874a), ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c4fd64b0e652a9d526a239f7c8660874a));
+				c6620458a630f3f7af22a821f55b87a8e.c30767ddca1f9c207888833aea5b5fc61(graphics, this.cb75a81151b52709aacb67b9f2a45f0c2, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96052), num2 - ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.cb75a81151b52709aacb67b9f2a45f0c2), ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.cb75a81151b52709aacb67b9f2a45f0c2), ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.cb75a81151b52709aacb67b9f2a45f0c2));
+				c6620458a630f3f7af22a821f55b87a8e.c30767ddca1f9c207888833aea5b5fc61(graphics, this.c1ea99d8aa04c7d0b47865162f7e10bb0, num - ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c1ea99d8aa04c7d0b47865162f7e10bb0), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96056), ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c1ea99d8aa04c7d0b47865162f7e10bb0), ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c1ea99d8aa04c7d0b47865162f7e10bb0));
+				c6620458a630f3f7af22a821f55b87a8e.c30767ddca1f9c207888833aea5b5fc61(graphics, this.cd43056a47e49717f580065b7a1704046, num - ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.cd43056a47e49717f580065b7a1704046), num2 - ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.cd43056a47e49717f580065b7a1704046), ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.cd43056a47e49717f580065b7a1704046), ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.cd43056a47e49717f580065b7a1704046));
+				c0f13d95f6c502a3a21c31070a3bc1f9d.c30767ddca1f9c207888833aea5b5fc61(this.c08a4fa2870e4c9cd9c3b42ca97bed4fc, c4929ffb646fb9ba9deb5f553efe8c57b.cdf46f43e0afdf3dce063f22f1e47bb37(96060), (float)ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c4fd64b0e652a9d526a239f7c8660874a));
+				c67e5d86d93e1f62ae94663048b8e6e8f.c30767ddca1f9c207888833aea5b5fc61(graphics, this.c08a4fa2870e4c9cd9c3b42ca97bed4fc, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96064), ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c4fd64b0e652a9d526a239f7c8660874a), ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c3c0337d09f5a296f71a3424a155ecd30), num2 - ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c4fd64b0e652a9d526a239f7c8660874a) - ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.cb75a81151b52709aacb67b9f2a45f0c2));
+				c0f13d95f6c502a3a21c31070a3bc1f9d.c30767ddca1f9c207888833aea5b5fc61(this.c9bc3fe51dce170e9ce86ed1685f5fbe9, (float)(num - ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c36f05f91e1d5566565206b8d2528365e)), (float)ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c1ea99d8aa04c7d0b47865162f7e10bb0));
+				c67e5d86d93e1f62ae94663048b8e6e8f.c30767ddca1f9c207888833aea5b5fc61(graphics, this.c9bc3fe51dce170e9ce86ed1685f5fbe9, num - ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c36f05f91e1d5566565206b8d2528365e), ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c1ea99d8aa04c7d0b47865162f7e10bb0), ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c36f05f91e1d5566565206b8d2528365e), num2 - ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c1ea99d8aa04c7d0b47865162f7e10bb0) - ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.cd43056a47e49717f580065b7a1704046));
+				c0f13d95f6c502a3a21c31070a3bc1f9d.c30767ddca1f9c207888833aea5b5fc61(this.c3d1f0f2260e0d4fcb2ec1e65aa58001f, (float)ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c4fd64b0e652a9d526a239f7c8660874a), c4929ffb646fb9ba9deb5f553efe8c57b.cdf46f43e0afdf3dce063f22f1e47bb37(96068));
+				c67e5d86d93e1f62ae94663048b8e6e8f.c30767ddca1f9c207888833aea5b5fc61(graphics, this.c3d1f0f2260e0d4fcb2ec1e65aa58001f, ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c4fd64b0e652a9d526a239f7c8660874a), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96072), num - ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c4fd64b0e652a9d526a239f7c8660874a) - ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.c1ea99d8aa04c7d0b47865162f7e10bb0), ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c6cc5446bc2b1b068fc58fb7db3b327e5));
+				c0f13d95f6c502a3a21c31070a3bc1f9d.c30767ddca1f9c207888833aea5b5fc61(this.c735174362001e418c89af8e4d9fafb00, (float)ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.cb75a81151b52709aacb67b9f2a45f0c2), (float)(num2 - ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c179c218866adc84baeadfa06c857a2c6)));
+				c67e5d86d93e1f62ae94663048b8e6e8f.c30767ddca1f9c207888833aea5b5fc61(graphics, this.c735174362001e418c89af8e4d9fafb00, ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.cb75a81151b52709aacb67b9f2a45f0c2), num2 - ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c179c218866adc84baeadfa06c857a2c6), num - ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.cb75a81151b52709aacb67b9f2a45f0c2) - ca57bd632f70140d3212563a3b4a59cfe.c30767ddca1f9c207888833aea5b5fc61(this.cd43056a47e49717f580065b7a1704046), ce1323a7315cb61041472171e7033ea84.c30767ddca1f9c207888833aea5b5fc61(this.c179c218866adc84baeadfa06c857a2c6));
+			}
+			finally
+			{
+				if (graphics != null)
+				{
+					while (true)
+					{
+						switch (3)
+						{
+						case 0:
+							continue;
+						}
+						break;
+					}
+					cf9986b7738b38d16bce255a902ec1313.c30767ddca1f9c207888833aea5b5fc61(graphics);
+				}
+			}
+			c97f49d2657861be131c291c4792bd0f3.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this);
+		}
+
+		// Token: 0x06001F0D RID: 7949 RVA: 0x0013F0E8 File Offset: 0x0013D2E8
+		private void c6cce3d7a037d3bb6daf36850da21511f()
+		{
+			this.cfcf963d78e4d86bc8e79dd99361e64d9 = cc969e44ebb59bde219b92d227f2c59ab.c0cf59c3e67a46fd4edb3040c5ab0bbfb(cb506aeb6fd5b9989fac33975a6c3b24a.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			this.c4fd64b0e652a9d526a239f7c8660874a = cc969e44ebb59bde219b92d227f2c59ab.c0cf59c3e67a46fd4edb3040c5ab0bbfb(cf032ee71265c792b14f3c57c0d382f47.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			this.cb75a81151b52709aacb67b9f2a45f0c2 = cc969e44ebb59bde219b92d227f2c59ab.c0cf59c3e67a46fd4edb3040c5ab0bbfb(c29b9c540d81ab4126e0f7687a2ca3673.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			this.c1ea99d8aa04c7d0b47865162f7e10bb0 = cc969e44ebb59bde219b92d227f2c59ab.c0cf59c3e67a46fd4edb3040c5ab0bbfb(c11877d6ecc10becb2627d8c28969c4a2.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			this.cd43056a47e49717f580065b7a1704046 = cc969e44ebb59bde219b92d227f2c59ab.c0cf59c3e67a46fd4edb3040c5ab0bbfb(cbcb06b2502d76c2d36005e07e06cfb5d.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			this.c3c0337d09f5a296f71a3424a155ecd30 = cc969e44ebb59bde219b92d227f2c59ab.c0cf59c3e67a46fd4edb3040c5ab0bbfb(ccb523726534721213047c889dd1b2d23.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			this.c36f05f91e1d5566565206b8d2528365e = cc969e44ebb59bde219b92d227f2c59ab.c0cf59c3e67a46fd4edb3040c5ab0bbfb(c4a803483950d8cad6d46c37684012bad.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			this.c6cc5446bc2b1b068fc58fb7db3b327e5 = cc969e44ebb59bde219b92d227f2c59ab.c0cf59c3e67a46fd4edb3040c5ab0bbfb(c6c1ffef4956be272cd168d05aea4ecee.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			this.c179c218866adc84baeadfa06c857a2c6 = cc969e44ebb59bde219b92d227f2c59ab.c0cf59c3e67a46fd4edb3040c5ab0bbfb(c6086ffd533cf8b7b6ebac618cb97e536.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			this.ce5cd417cc54ef6c0ab7d42539bb38ce1 = new c2861bce16c5ad69fc008b9d4ba92eecd(this.c1fe92e2401f269fe36c670041bacd9cd, this.ca124a9f406cda69b904f2eb04d553ab9, this.c6c72c029a273123a083e76d610205020);
+			c2a65a7ade96df8276df8968ce7e0c908.c30767ddca1f9c207888833aea5b5fc61(this.ce5cd417cc54ef6c0ab7d42539bb38ce1, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96076));
+			c9fba8ec5615475ea6c87f2b00d223ecc.c30767ddca1f9c207888833aea5b5fc61(this.ce5cd417cc54ef6c0ab7d42539bb38ce1, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(96080));
+			c57e74a6fc52d16ae52205674e0b5cb3b.c30767ddca1f9c207888833aea5b5fc61(this.ce5cd417cc54ef6c0ab7d42539bb38ce1, c13dd1c2ef9532ee9ae1a07ea7997c23e.c0cf59c3e67a46fd4edb3040c5ab0bbfb());
+			c28f548086d6b05de8d3a3b47621a2479.c30767ddca1f9c207888833aea5b5fc61(cc1427fec38c2a93719945ef8a21ca4b9.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this), this.ce5cd417cc54ef6c0ab7d42539bb38ce1);
+		}
+
+		// Token: 0x06001F0E RID: 7950 RVA: 0x0013F218 File Offset: 0x0013D418
+		public void c5e16a22ce552ea42587b7f00b68f813a()
+		{
+			this.ce5cd417cc54ef6c0ab7d42539bb38ce1.c5e16a22ce552ea42587b7f00b68f813a();
+		}
+
+		// Token: 0x06001F0F RID: 7951 RVA: 0x0013F230 File Offset: 0x0013D430
+		public void c17e5273089bd594a7b1bbc60fa832361()
+		{
+			this.ce5cd417cc54ef6c0ab7d42539bb38ce1.c17e5273089bd594a7b1bbc60fa832361();
+		}
+
+		// Token: 0x06001F10 RID: 7952 RVA: 0x0013F248 File Offset: 0x0013D448
+		public void cf775278d656f9b5ea96f712328da8eb9()
+		{
+			this.ce5cd417cc54ef6c0ab7d42539bb38ce1.cf775278d656f9b5ea96f712328da8eb9();
+		}
+
+		// Token: 0x06001F11 RID: 7953 RVA: 0x0013F260 File Offset: 0x0013D460
+		public void cfa195f4dd59fd471e4e51d899d151dbe(SpawnObject spawnObject, c49a205a8d962eedc10d0ad1e8ae458d7.c341c057025cd8aff0e5f8e9a16049073 c341c057025cd8aff0e5f8e9a)
+		{
+			this.ce5cd417cc54ef6c0ab7d42539bb38ce1.cfa195f4dd59fd471e4e51d899d151dbe(spawnObject, c341c057025cd8aff0e5f8e9a);
+		}
+
+		// Token: 0x06001F12 RID: 7954 RVA: 0x0013F27C File Offset: 0x0013D47C
+		public void c69a4717af9c85a10d23191eb2bdb02c0(int num)
+		{
+			this.ce5cd417cc54ef6c0ab7d42539bb38ce1.c69a4717af9c85a10d23191eb2bdb02c0(num);
+		}
+
+		// Token: 0x06001F13 RID: 7955 RVA: 0x0013F298 File Offset: 0x0013D498
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing)
+			{
+				while (true)
+				{
+					switch (4)
+					{
+					case 0:
+						continue;
+					}
+					break;
+				}
+				if (!true)
+				{
+					RuntimeMethodHandle arg_15_0 = methodof(cc9ac2bbb25ca55cfd51718f033491e7a.Dispose(bool)).MethodHandle;
+				}
+				if (this.ce3753db2789ff7c885165e389c0b762f != null)
+				{
+					while (true)
+					{
+						switch (3)
+						{
+						case 0:
+							continue;
+						}
+						break;
+					}
+					cf9986b7738b38d16bce255a902ec1313.c30767ddca1f9c207888833aea5b5fc61(this.ce3753db2789ff7c885165e389c0b762f);
+				}
+			}
+			cfbd1b5a3b0323d7f7d188827fde43ffc.c0cf59c3e67a46fd4edb3040c5ab0bbfb(this, disposing);
+		}
+
+		// Token: 0x06001F14 RID: 7956 RVA: 0x0013F2E0 File Offset: 0x0013D4E0
+		private void c99cc8d41a90783cea4e7845c839dcc98()
+		{
+			this.ce3753db2789ff7c885165e389c0b762f = ce5d9f7cdcdd93dceb594ff3b777c5df3.c0cf59c3e67a46fd4edb3040c5ab0bbfb();
+		}
+
+		// Token: 0x04001449 RID: 5193
+		private c2861bce16c5ad69fc008b9d4ba92eecd ce5cd417cc54ef6c0ab7d42539bb38ce1;
+
+		// Token: 0x0400144A RID: 5194
+		private string c1fe92e2401f269fe36c670041bacd9cd;
+
+		// Token: 0x0400144B RID: 5195
+		private CoreInternal ca124a9f406cda69b904f2eb04d553ab9;
+
+		// Token: 0x0400144C RID: 5196
+		private c6bdd46ef9f05485f6b69f34bf6920a88 c6c72c029a273123a083e76d610205020;
+
+		// Token: 0x0400144D RID: 5197
+		private Bitmap cfcf963d78e4d86bc8e79dd99361e64d9;
+
+		// Token: 0x0400144E RID: 5198
+		private Bitmap c4fd64b0e652a9d526a239f7c8660874a;
+
+		// Token: 0x0400144F RID: 5199
+		private Bitmap cb75a81151b52709aacb67b9f2a45f0c2;
+
+		// Token: 0x04001450 RID: 5200
+		private Bitmap c1ea99d8aa04c7d0b47865162f7e10bb0;
+
+		// Token: 0x04001451 RID: 5201
+		private Bitmap cd43056a47e49717f580065b7a1704046;
+
+		// Token: 0x04001452 RID: 5202
+		private Bitmap c3c0337d09f5a296f71a3424a155ecd30;
+
+		// Token: 0x04001453 RID: 5203
+		private Bitmap c36f05f91e1d5566565206b8d2528365e;
+
+		// Token: 0x04001454 RID: 5204
+		private Bitmap c6cc5446bc2b1b068fc58fb7db3b327e5;
+
+		// Token: 0x04001455 RID: 5205
+		private Bitmap c179c218866adc84baeadfa06c857a2c6;
+
+		// Token: 0x04001456 RID: 5206
+		private Bitmap cfe50bfa25649541afa0ea62ceaabc269;
+
+		// Token: 0x04001457 RID: 5207
+		private TextureBrush c2dee754ae18233cf038dd1eb1a74c903;
+
+		// Token: 0x04001458 RID: 5208
+		private TextureBrush c08a4fa2870e4c9cd9c3b42ca97bed4fc;
+
+		// Token: 0x04001459 RID: 5209
+		private TextureBrush c9bc3fe51dce170e9ce86ed1685f5fbe9;
+
+		// Token: 0x0400145A RID: 5210
+		private TextureBrush c3d1f0f2260e0d4fcb2ec1e65aa58001f;
+
+		// Token: 0x0400145B RID: 5211
+		private TextureBrush c735174362001e418c89af8e4d9fafb00;
+
+		// Token: 0x0400145C RID: 5212
+		private IContainer ce3753db2789ff7c885165e389c0b762f;
+	}
+}

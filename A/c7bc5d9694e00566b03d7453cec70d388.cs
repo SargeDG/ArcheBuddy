@@ -1,0 +1,42 @@
+﻿using System;
+
+namespace A
+{
+	// Token: 0x0200037E RID: 894
+	internal sealed class c7bc5d9694e00566b03d7453cec70d388 : c156d13823d81cd4a7425f2cf5b6230f3
+	{
+		// Token: 0x06001042 RID: 4162 RVA: 0x00097BC4 File Offset: 0x00095DC4
+		public c7bc5d9694e00566b03d7453cec70d388(byte[] array, cdddb0b97541c52448b8f0b50995b8c8e cdddb0b97541c52448b8f0b50995b8c8e, bool flag = false) : base(array, cdddb0b97541c52448b8f0b50995b8c8e, c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(35900), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(35904) != 0, flag)
+		{
+			this.c8c2963536aa490c332c4649b61951877 = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.ce166ab70deae1095ac6ca3612a39eee6 = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.c731a9df8afe89fff024fb7e6a1a87d63 = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.caabd63777925a0d255e3b5cd2d29a4dc = this.c1931c382e0fefaae84b9654d92e1461e.c10977621cab38e37d3151c0a33203f8f();
+			this.c652e209f4e0ce1699580056916029aca = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.c9894113a6058ba344ef91875c2c81b3c = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.cea60eb34fde58506dbe4735b70ee42b9 = this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+			this.c1931c382e0fefaae84b9654d92e1461e.c825b26848c4efe9789d2c432ff9f7264();
+		}
+
+		// Token: 0x04000C5C RID: 3164
+		public uint c8c2963536aa490c332c4649b61951877;
+
+		// Token: 0x04000C5D RID: 3165
+		public uint c652e209f4e0ce1699580056916029aca;
+
+		// Token: 0x04000C5E RID: 3166
+		public uint c9894113a6058ba344ef91875c2c81b3c;
+
+		// Token: 0x04000C5F RID: 3167
+		public uint cea60eb34fde58506dbe4735b70ee42b9;
+
+		// Token: 0x04000C60 RID: 3168
+		public uint ce166ab70deae1095ac6ca3612a39eee6;
+
+		// Token: 0x04000C61 RID: 3169
+		public uint c731a9df8afe89fff024fb7e6a1a87d63;
+
+		// Token: 0x04000C62 RID: 3170
+		public bool caabd63777925a0d255e3b5cd2d29a4dc;
+	}
+}

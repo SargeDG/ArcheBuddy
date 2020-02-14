@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace A
+{
+	// Token: 0x02000049 RID: 73
+	internal sealed class cb225826ece3b853f5151d47b4e8574eb : c20d0ee5e94d9784dc0803fe3a4628e16
+	{
+		// Token: 0x06000178 RID: 376 RVA: 0x0001B0E4 File Offset: 0x000192E4
+		public cb225826ece3b853f5151d47b4e8574eb(int num, int num2, int num3, int num4, int num5, byte b) : base(c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(4956), (cdddb0b97541c52448b8f0b50995b8c8e)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(4960), (c920c2912e29f42e690b5d188b10e15ce)c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(4964), c4929ffb646fb9ba9deb5f553efe8c57b.c185d731bee241637ed623c74ebeedc15(4968) != 0)
+		{
+			base.c861311b52a7b91706a6296ca8355496c(num);
+			base.c861311b52a7b91706a6296ca8355496c(num2);
+			base.c861311b52a7b91706a6296ca8355496c(num3);
+			base.c861311b52a7b91706a6296ca8355496c(num4);
+			base.c861311b52a7b91706a6296ca8355496c(num5);
+			base.c861311b52a7b91706a6296ca8355496c(b);
+		}
+	}
+}
